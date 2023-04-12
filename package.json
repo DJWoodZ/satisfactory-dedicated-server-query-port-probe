@@ -1,0 +1,29 @@
+{
+  "name": "@djwoodz/satisfactory-dedicated-server-query-port-probe",
+  "version": "0.1.0",
+  "description": "A zero dependency Node.js library for probing the query port of a Satisfactory Dedicated Server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DJWoodZ/satisfactory-dedicated-server-query-port-probe.git"
+  },
+  "keywords": [
+    "Satisfactory",
+    "Dedicated Server",
+    "Query Port"
+  ],
+  "author": "DJ WoodZ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DJWoodZ/satisfactory-dedicated-server-query-port-probe/issues"
+  },
+  "homepage": "https://github.com/DJWoodZ/satisfactory-dedicated-server-query-port-probe#readme",
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}

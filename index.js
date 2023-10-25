@@ -47,7 +47,7 @@ const probe = (address = '127.0.0.1', port = 15777, timeout = 10000) => new Prom
 
   const buf = Buffer.alloc(10);
   buf.writeInt8(0, 0);
-  buf.writeInt8(0, 0);
+  buf.writeInt8(0, 1);
   buf.writeBigUInt64LE(now, 2);
 
   socket.send(
